@@ -1,0 +1,13 @@
+applications:
+- name: demoHDICRUD
+  buildpack: sap_java_buildpack
+  memory: 1024M
+  random-route: true
+  timeout: 100
+  path: ./target/demoHDICRUD-0.0.1-SNAPSHOT.war
+  #target: 
+  services:
+  - hdidemodb1
+  
+  
+ 
